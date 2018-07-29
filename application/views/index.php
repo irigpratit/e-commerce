@@ -38,11 +38,11 @@ include "include/head.php";
 <div class="container">
     <div class="row">
          <div id="custom-search-input">
-             <form>
+             <form action="search.php" method="GET">
                  <div class="input-group">
-                     <input type="text" class="  search-query form-control form-control-lg" placeholder="Search Books Here" />
+                     <input type="text" name="query" class="search-query form-control form-control-lg" placeholder="Search Books Here" />
                      <span class="input-group-btn">
-                    <button class="btn btn-link" type="submit">
+                    <button class="btn btn-link" type="submit" value="search"   >
                         <span class=" glyphicon glyphicon-search"></span>
                     </button>
                      </span>
@@ -54,6 +54,16 @@ include "include/head.php";
     </div>
 </div>
 </div>
+
+
+<!---->
+<!--SELECT * FROM `products` ORDER BY `products`.`product_name` ASC-->
+<!--<form action="search.php" method="GET">-->
+<!--    <input type="text" name="query" />-->
+<!--    <input type="submit" value="Search" />-->
+<!--</form>-->
+
+
 
 
 
