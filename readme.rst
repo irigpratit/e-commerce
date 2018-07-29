@@ -25,14 +25,6 @@ Or a **Pull Request** would be welcome.
    
 **Enjoy**
 
-
-**Quick Access :**
-  For accessing Admin features
- Admin id = **as@as.com** password : **admin**
- 
-  For accessing user/Restricted features
- user id = **ms@ms.com** password : **user**
-
 ###################
 What is CodeIgniter
 ###################
