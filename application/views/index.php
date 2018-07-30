@@ -38,33 +38,27 @@ include "include/head.php";
 <div class="container">
     <div class="row">
          <div id="custom-search-input">
-             <form action="search.php" method="GET">
+             <form>
                  <div class="input-group">
-                     <input type="text" name="query" class="search-query form-control form-control-lg" placeholder="Search Books Here" />
+                     <input type="text" class="search-query form-control form-control-lg" placeholder="Search Books Here" />
                      <span class="input-group-btn">
-                    <button class="btn btn-link" type="submit" value="search"   >
+                    <button onclick="myFunction()" class="btn btn-link" type="submit" value="search"   >
                         <span class=" glyphicon glyphicon-search"></span>
                     </button>
                      </span>
+
                  </div>
 
              </form>
-
         </div>
     </div>
 </div>
 </div>
-
-
-<!---->
-<!--SELECT * FROM `products` ORDER BY `products`.`product_name` ASC-->
-<!--<form action="search.php" method="GET">-->
-<!--    <input type="text" name="query" />-->
-<!--    <input type="submit" value="Search" />-->
-<!--</form>-->
-
-
-
+<div class="text-center">
+    <div class="text-box" id="myDIV" style="top: 55%; position: absolute; z-index: 4; left: 25%; display: none;">
+        <a href="#"><img src="assets/img/slide-1.jpg" width="150" height="150"></a>
+    </div>
+</div>
 
 
 <div class="slider-area">
@@ -212,5 +206,16 @@ include "include/footer.php";
 
 <!-- Main Script -->
 <script src="<?php echo base_url() ?>assets/js/main.js"></script>
+
+<script type="text/javascript">
+    function myFunction() {
+        var x = document.getElementById("myDIV");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
 </body>
 </html>
