@@ -50,17 +50,17 @@ include "include/head.php";
 <br/><br/>
 
 <span style="float:right;font-size: 20px; padding: 10px;">
-    <b>Select Books for</b>
+    <b>Filter Products</b>
     <?php
     echo form_open('Shop/catFilter');
     ?>
     <select class=' add_to_cart_button' name="cat" id="">
-        <option value="11sci">Class 11 Science</option>
-        <option value="12sci">Class 12 Science</option>
-        <option value="11mgmt">Class 11 Management</option>
-        <option value="12mgmt">Class 12 Management</option>
-        <option value="course">References</option>
+        <option value="course">Course books</option>
+        <option value="literature">Literature</option>
+        <option value="story">Story</option>
         <option value="novel">Novel</option>
+        <option value="comics">Comics</option>
+        <option value="fiction">Fiction</option>
     </select>
     <button class="add_to_cart_button" >Submit</button>
     <?php
