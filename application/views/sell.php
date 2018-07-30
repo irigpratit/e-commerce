@@ -43,7 +43,7 @@
            </div>
            <br/><br/>
 
-
+           
            <div style="border:1px solid #ddd; " class="container">
                
                <div class="panel panel-default" style="border:0;" ><center>
@@ -92,10 +92,22 @@
           <label for="inputEdition">Edition</label>
           <input type="text" class="form-control" id="inputEdition" placeholder="Enter Book Edition">
       </div>
-    <div class="row">
-     <div> <button type="submit" class="btn btn-primary">Submit</button> </div></div>
+     <div class="row"><div>
+   
+     <button onclick="myFunction()" type="submit" class="btn btn-primary">Submit</button></div>
+     <p id="demo"></p>
 
-    </div>
+<script>
+function myFunction() {
+    var txt;
+    if (confirm("Do you want to confirm your submit?")) {
+        txt = "Your Book is under Admin Review";
+    } else {
+        txt = "Your Submission has been cancelled";
+    }
+    document.getElementById("demo").innerHTML = txt;
+}
+</script></div></div>
 
   
       <!-- <div class="form-group col-md-4">
@@ -111,7 +123,7 @@
   }
 </style>
 
-
+   
       <div class="panel panel-default" >
         <div class="panel-heading">
           <h4 class="panel-title">
@@ -156,15 +168,37 @@
         <option>Acceptable</option>
       </select>
     </div>
+    
 
-    <div class="row">
-     <div> <button type="submit" class="btn btn-primary">Submit</button> </div></div>
 
+
+
+
+
+
+    <div class="row"><div>
+   
+     <button onclick="myFunction()" type="submit" class="btn btn-primary">Submit</button></div>
+
+<!-- <p id="demo"></p> -->
+
+<script>
+function myFunction() {
+    var txt;
+    if (confirm("Do you want to confirm your submit?")) {
+        txt = "Your Book is under Admin Review";
+    } else {
+        txt = "Your Submission has been cancelled";
+    }
+    document.getElementById("demo").innerHTML = txt;
+}
+</script>
+</div>
     </div>
         </div>
       </div>
     </div> 
-  </div>
+  </div></div></div></strong>
 
       
 
@@ -179,6 +213,7 @@
                           </div>    
 
        
+</center></div></div>
 
 
 
