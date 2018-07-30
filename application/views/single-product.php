@@ -80,7 +80,12 @@ include "include/head.php";
                                             <ins>Rs.<?php echo $row->product_price ?></ins>
                                         </div>
                                         <p>Author: Bal Krishna Sama</p>
-                                        <p>Rating: 3 out of 5</p>
+                                       <span class="fa fa-star checked"></span>
+                                       <span class="fa fa-star checked"></span>
+                                       <span class="fa fa-star checked"></span>
+                                       <span class="fa fa-star"></span>
+                                       <span class="fa fa-star"></span>
+                                       <br>
 
 
                                         <a href="<?php echo base_url()?>index.php/Cart?id=<?php echo $row->p_id ?>" ><button class="add_to_cart_button" type="submit">Add to cart</button></a>

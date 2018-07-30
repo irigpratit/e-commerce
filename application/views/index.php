@@ -44,10 +44,7 @@ include "include/head.php";
              <form>
                  <div class="input-group">
                      <input type="text" class="search-query form-control form-control-lg" placeholder="Search Books Here">
-                     <script>
-
-    
-                     </script>
+                     
                      <span class="input-group-btn">
                     <button class="btn btn-link" type="submit">
                         <span class=" glyphicon glyphicon-search"></span>

@@ -1052,3 +1052,12 @@ div.cart-collaterals ul.products li.product:hover .add_to_cart_button{background
 .checked {
     color: orange;
 }
+
+.btn-greeny{
+  background: #1ABC9C;
+  color: #ffffff;
+  border: thick;
+  padding: 11px 15px;
+  
+  /*text-transform: uppercase;*/
+}
