@@ -16,7 +16,8 @@
         <div class="row">
             <div class="col-sm-6">
                 <div class="logo">
-                    <h1><a href="<?php echo base_url() ?>index.php/Welcome">Old Is<span>&nbsp;Gold</span></a></h1>
+                    <img src="../assets/img/logo.png" style="height: 60px; width: 80px; padding-bottom: 14px; display: inline !important;">
+                    <h1 style="display: inline !important;"><a href="<?php echo base_url() ?>index.php/Welcome">Old Is<span>&nbspGold</span></a></h1>
                 </div>
             </div>
         </div>

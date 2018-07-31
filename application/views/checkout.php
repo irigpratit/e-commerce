@@ -78,7 +78,7 @@ include "include/head.php";
             <tfoot>
 
             <tr class="shipping">
-                <th>Shipping and Handling</th>
+                <th>Delivery and Handling</th>
                 <td>
                     Rs. 100/-
                 </td>
@@ -87,7 +87,7 @@ include "include/head.php";
 
             <tr class="order-total">
                 <th>Order Total</th>
-                <td><strong><span class="amount">Rs.<?php echo $netTotal = $total + 1000 ?>/-</span></strong> </td>
+                <td><strong><span class="amount">Rs.<?php echo $netTotal = $total + 100 ?>/-</span></strong> </td>
             </tr>
 
             </tfoot>

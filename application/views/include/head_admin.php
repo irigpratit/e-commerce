@@ -2,31 +2,33 @@
 
 ?>
 
-<div class="header-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                <div class="user-menu">
-                    <!--<ul>
-                        <li><a href="<?php /*echo base_url() */?>Welcome/login"><i class="fa fa-user"></i> My Account</a></li>
-                        <li><a href="#"><i class="fa fa-heart"></i> Wishlist</a></li>
-                        <li><a href="<?php /*echo base_url() */?>Welcome/cart"><i class="fa fa-shopping-cart"></i> My Cart</a></li>
-                        <li><a href="<?php /*echo base_url() */?>Welcome/checkout"><i class="fa fa-user"></i> Checkout</a></li>
-
-                    </ul>-->
-                </div>
-            </div>
-        </div>
-    </div>
-</div> <!-- End header area -->
+<!--<div class="header-area">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-8">-->
+<!--                <div class="user-menu">-->
+<!--                    <!--<ul>-->
+<!--                        <li><a href="--><?php ///*echo base_url() */?><!--Welcome/login"><i class="fa fa-user"></i> My Account</a></li>-->
+<!--                        <li><a href="#"><i class="fa fa-heart"></i> Wishlist</a></li>-->
+<!--                        <li><a href="--><?php ///*echo base_url() */?><!--Welcome/cart"><i class="fa fa-shopping-cart"></i> My Cart</a></li>-->
+<!--                        <li><a href="--><?php ///*echo base_url() */?><!--Welcome/checkout"><i class="fa fa-user"></i> Checkout</a></li>-->
+<!---->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div> <!-- End header area -->
 
 <div class="site-branding-area">
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
                 <div class="logo">
-                    <h1><a href="<?php echo base_url() ?>Admin">Old Is<span>Gold</span>(Admin Panel)</a></h1>
+                    <img src="../assets/img/logo.png" style="height: 60px; width: 80px; padding-bottom: 14px; display: inline;">
+                    <h1 style="display: inline;"><a href="<?php echo base_url() ?>Admin">Old Is<span>&nbspGold</span>(Admin Panel)</a></h1>
                 </div>
+
             </div>
 
             <div class="col-sm-6">

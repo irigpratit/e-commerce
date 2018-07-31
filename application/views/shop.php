@@ -23,12 +23,10 @@
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/style.css">
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/responsive.css">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+
 </head>
 <body>
 
@@ -50,17 +48,17 @@ include "include/head.php";
 <br/><br/>
 
 <span style="float:right;font-size: 20px; padding: 10px;">
-    <b>Filter Products</b>
+    <b>Sort by Preference</b>
     <?php
     echo form_open('Shop/catFilter');
     ?>
     <select class=' add_to_cart_button' name="cat" id="">
-        <option value="course">Course books</option>
-        <option value="literature">Literature</option>
-        <option value="story">Story</option>
+        <option value="course">References</option>
+        <option value="11sci">Class 11 Science</option>
+        <option value="12sci">Class 12 Science</option>
         <option value="novel">Novel</option>
-        <option value="comics">Comics</option>
-        <option value="fiction">Fiction</option>
+<!--        <option value="comics">Comics</option>-->
+<!--        <option value="fiction">Fiction</option>-->
     </select>
     <button class="add_to_cart_button" >Submit</button>
     <?php

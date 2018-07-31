@@ -22,6 +22,10 @@ img {
     max-width: 100%;
     height: auto;
 }
+.checked {
+    color: orange;
+}
+
 .fix { overflow: hidden }
 h1,
 h2,
@@ -47,16 +51,17 @@ body { font-family: 'Titillium Web', sans-serif; }
 input.search-query.form-control {
     width: 93vw;
     background: transparent;
-    border: none;
-    border-bottom: 1px dashed #777777;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
+    border: 1px solid #777777;
+    /*border-bottom: 1px solid #777777;*/
+    /*border-bottom-left-radius: 0;*/
+    /*border-bottom-right-radius: 0;*/
 }
 input.form-control-lg{
     line-height: 30px;
     height: 60px;
     font-size:18px;
 }
+
 .glyphicon.glyphicon-search{
     font-size: 25px;
 }
@@ -65,7 +70,16 @@ input.form-control-lg{
 
 }
 
+.btn-greeny{
+    background: #1ABC9C;
+    color: #ffffff;
+    border: thick;
+    padding: 11px 15px;
+}
 
+/*.indexform.form-control{*/
+    /*color: #ffffff !important;*/
+/*}*/
 
 .header-area {
     background: none repeat scroll 0 0 #f4f4f4;
@@ -716,7 +730,7 @@ input[type="submit"]:hover, button[type=submit]:hover {background-color: #222}
 }
 .product-inner-price > ins {
     color: #1abc9c;
-    font-weight: 700;
+    font-weight: 800;
     margin-right: 10px;
     text-decoration: none;
 }

@@ -26,7 +26,7 @@
 
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+
 </head>
 <body>
 
@@ -38,99 +38,108 @@ include "include/head.php";
 </style>
 
 <div class="searchbox">
-<div class="container">
-    <div class="row">
-         <div id="custom-search-input">
-             <form>
-                 <div class="input-group">
-                     <input type="text" class="  search-query form-control form-control-lg" placeholder="Search Books Here" />
-                     <span class="input-group-btn">
-                    <button class="btn btn-link" type="submit">
-                        <span class=" glyphicon glyphicon-search"></span>
-                    </button>
-                     </span>
-                 </div>
-
-             </form>
-
+    <div class="container">
+        <div class="row">
+             <div id="custom-search-input">
+                 <form action="http://localhost/e-commerce/index.php/Shop">
+                     <div class="input-group">
+                         <input type="text" class="search-query form-control form-control-lg" style="color: #ffffff;" required placeholder="Search Books Here" />
+                         <span class="input-group-btn">
+                            <button class="btn btn-link" type="submit">
+                                <span class=" glyphicon glyphicon-search"></span>
+                            </button>
+                         </span>
+                     </div>
+                 </form>
+            </div>
         </div>
     </div>
-</div>
 </div>
 
 
 
 <div class="slider-area">
     <div class="zigzag-bottom"></div>
-    <div id="slide-list" class="carousel carousel-fade slide" data-ride="carousel">
+        <div id="slide-list" class="carousel carousel-fade slide" data-ride="carousel">
 
-        <div class="slide-bulletz">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <ol class="carousel-indicators slide-indicators">
-                            <li data-target="#slide-list" data-slide-to="0" class="active"></li>
-                            <li data-target="#slide-list" data-slide-to="1"></li>
-                            <li data-target="#slide-list" data-slide-to="2"></li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
+
+<!--        <div class="slide-bulletz">-->
+<!--            <div class="container">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-md-12">-->
+<!--                        <ol class="carousel-indicators slide-indicators">-->
+<!--                            <li data-target="#slide-list" data-slide-to="0" class="active"></li>-->
+<!--                            <li data-target="#slide-list" data-slide-to="1"></li>-->
+<!--                            <li data-target="#slide-list" data-slide-to="2"></li>-->
+<!--                        </ol>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+
+
+
+<!--        <div class="carousel-inner" role="listbox">-->
+<!--            <div class="item active">-->
+<!--                <div class="single-slide">-->
+<!--                    <div class="slide-bg slide-one"></div>-->
+<!--                    <div class="slide-text-wrapper">-->
+<!--                        <div class="slide-text">-->
+<!--                            <div class="container">-->
+<!--                                <div class="row">-->
+<!--                                    <div class="col-md-6 col-md-offset-6">-->
+<!--                                        <div class="slide-content">-->
+<!--                                            <h2>Why Us?</h2>-->
+<!--                                            <p>We provide you the easiest platform to buy and sell used books. Books are of prime value at the time of use and even after the use. Reading books is a good habit. More than 70% of successful people read at least two books a week. Distributing knowledge among each other via Old Is Gold has been our key goal.</p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+
+
+
+<!--            <div class="item">-->
+<!--                <div class="single-slide">-->
+<!--                    <div class="slide-bg slide-one"></div>-->
+<!--                    <div class="slide-text-wrapper">-->
+<!--                        <div class="slide-text">-->
+<!--                            <div class="container">-->
+<!--                                <div class="row">-->
+<!--                                    <div class="col-md-6 col-md-offset-6">-->
+<!--                                        <div class="slide-content">-->
+<!--                                            <h2>Why Us?</h2>-->
+<!--                                            <p>We provide you the easiest platform to buy and sell used books. Books are of prime value at the time of use and even after the use. Reading books is a good habit. More than 70% of successful people read at least two books a week. Distributing knowledge among each other via Old Is Gold has been our key goal.</p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+
+
+            <div class="item">
                 <div class="single-slide">
                     <div class="slide-bg slide-one"></div>
-                    <div class="slide-text-wrapper">
-                        <div class="slide-text">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-6 col-md-offset-6">
-                                        <div class="slide-content">
-                                            <h2>Old Is Gold</h2>
-                                            <p>Come Visit Us </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="single-slide">
-                    <div class="slide-bg slide-two"></div>
-                    <div class="slide-text-wrapper">
-                        <div class="slide-text">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-6 col-md-offset-6">
-                                        <div class="slide-content">
-                                            <h2>We are great</h2>
-                                            <p>Distributing knowledge among each other via Old Is Gold has been our dream.</p>
-                                            <a href="" class="readmore">Learn more</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="single-slide">
-                    <div class="slide-bg slide-three"></div>
-                    <div class="slide-text-wrapper">
-                        <div class="slide-text">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-6 col-md-offset-6">
-                                        <div class="slide-content">
-                                            <h2>We are superb</h2>
-                                            <p>Books are of prime value at the time of use and even after the use.</p>
-                                            <p>Keep reading from us, Reading books is a good habit. More than 70% of successful peoples read at least two books in a week.</p>
-                                            <a href="" class="readmore">Learn more</a>
+                        <div class="slide-text-wrapper">
+                            <div class="slide-text">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-6 col-md-offset-6">
+                                            <div class="slide-content">
+                                                <h2>Why Us?</h2>
+                                                <p>We provide you the easiest platform to buy and sell used books.
+                                                    Books are of prime value at the time of use and even after the use.
+                                                    Reading books is a good habit.
+                                                    More than 70% of successful people read at least two books a week.
+                                                    Distributing knowledge among each other via Old Is Gold has been our key goal.</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -140,9 +149,7 @@ include "include/head.php";
                 </div>
             </div>
         </div>
-
-    </div>
-</div> <!-- End slider area -->
+    </div> <!-- End slider area -->
 
 <div class="maincontent-area">
     <div class="zigzag-bottom"></div>
@@ -150,6 +157,7 @@ include "include/head.php";
         <div class="row">
             <div class="col-md-12">
                 <div class="latest-product">
+                    <br><br>
                     <h2 class="section-title">Available Books In Store</h2>
                     <div class="product-carousel">
 
@@ -181,7 +189,6 @@ include "include/head.php";
 </div>
 <!-- End main content area -->
 
-</div> -->
 
 <?php
 include "include/footer.php";

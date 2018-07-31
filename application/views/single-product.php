@@ -23,12 +23,10 @@
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/style.css">
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/responsive.css">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+
 </head>
 <body>
 
@@ -79,8 +77,19 @@ include "include/head.php";
                                         <div class="product-inner-price">
                                             <ins>Rs.<?php echo $row->product_price ?></ins>
                                         </div>
-                                        <p>Author: Bal Krishna Sama</p>
-                                        <p>Rating: 3 out of 5</p>
+                                        <p><strong>Author: Dr. K.L. Gomber and K.L. Gogia</strong><br>
+                                        Publisher: Pradeep Publications; 21st Edition edition (2011)<br>
+                                        ISBN-10: 819321806X<br>
+                                        ISBN-13: 978-8193218068<br>
+                                        Product Dimensions: 15 x 10 x 1 cm</p>
+
+                                        <h4>Readers Rating</h4>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <br><br>
 
 
                                         <a href="<?php echo base_url()?>index.php/Cart?id=<?php echo $row->p_id ?>" ><button class="add_to_cart_button" type="submit">Add to cart</button></a>

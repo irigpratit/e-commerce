@@ -106,7 +106,7 @@
                                 $pro_totals += $row->p_qty * $row->p_price;
                             }
 
-                            $pro_totals += 1000;
+                            $pro_totals += 100;
 
                         }
                         ?>
@@ -116,7 +116,7 @@
                             <td></td>
                             <td></td>
                             <td colspan="2"><b>Delivery Charges :</b></td>
-                            <td><b>1000/-</b></td>
+                            <td><b>100/-</b></td>
                         </tr>
 
                         <tr>
