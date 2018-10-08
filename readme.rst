@@ -5,25 +5,9 @@
 - Full Responsive
 - Admin Panel 
 - Order Tracking
-- Complete Validation
 - My SQL Database
 - Bill Printing Functionality
 
-Please feel free to report an **Issue** or ask for a **feature** that you want to see in this project 
-
-Or a **Pull Request** would be welcome. 
-
-**Live Project Demo -** https://ecommerce-web.000webhostapp.com/
-
-**Installation:**
-   Goto : 
-   application/config/config.php
-   
- edit **base_url** to your path 
- 
-   Upload project.sql file in phpmyadmin
-   
-**Enjoy**
 
 ###################
 What is CodeIgniter

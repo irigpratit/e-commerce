@@ -77,6 +77,7 @@ include "include/head.php";
                                         <div class="product-inner-price">
                                             <ins>Rs.<?php echo $row->product_price ?></ins>
                                         </div>
+<<<<<<< HEAD
                                         <p><strong>Author: Dr. K.L. Gomber and K.L. Gogia</strong><br>
                                         Publisher: Pradeep Publications; 21st Edition edition (2011)<br>
                                         ISBN-10: 819321806X<br>
@@ -90,6 +91,15 @@ include "include/head.php";
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star"></span>
                                         <br><br>
+=======
+                                        <p>Author: Bal Krishna Sama</p>
+                                       <span class="fa fa-star checked"></span>
+                                       <span class="fa fa-star checked"></span>
+                                       <span class="fa fa-star checked"></span>
+                                       <span class="fa fa-star"></span>
+                                       <span class="fa fa-star"></span>
+                                       <br>
+>>>>>>> 3ae12cb2674bb4705a4ec458d105ce7a44828a71
 
 
                                         <a href="<?php echo base_url()?>index.php/Cart?id=<?php echo $row->p_id ?>" ><button class="add_to_cart_button" type="submit">Add to cart</button></a>

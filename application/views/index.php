@@ -26,7 +26,11 @@
 
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 3ae12cb2674bb4705a4ec458d105ce7a44828a71
 </head>
 <body>
 
@@ -38,6 +42,7 @@ include "include/head.php";
 </style>
 
 <div class="searchbox">
+<<<<<<< HEAD
     <div class="container">
         <div class="row">
              <div id="custom-search-input">
@@ -52,6 +57,24 @@ include "include/head.php";
                      </div>
                  </form>
             </div>
+=======
+<div class="container">
+    <div class="row">
+         <div id="custom-search-input">
+             <form>
+                 <div class="input-group">
+                     <input type="text" class="search-query form-control form-control-lg" placeholder="Search Books Here">
+                     
+                     <span class="input-group-btn">
+                    <button class="btn btn-link" type="submit">
+                        <span class=" glyphicon glyphicon-search"></span>
+                    </button>
+                     </span>
+                 </div>
+
+             </form>
+
+>>>>>>> 3ae12cb2674bb4705a4ec458d105ce7a44828a71
         </div>
     </div>
 </div>

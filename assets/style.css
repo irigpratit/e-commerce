@@ -42,24 +42,32 @@ body { font-family: 'Titillium Web', sans-serif; }
 .searchbox {
     position: absolute;
     top: 225px;
-    left: 20px;
+    left: 50px;
     z-index: 4;
 }
 .searchbox #custom-search-input .input-group{
     width: 100%;
 }
 input.search-query.form-control {
-    width: 93vw;
+    width: 90vw;
+    border: 1px solid #000000;
     background: transparent;
+<<<<<<< HEAD
     border: 1px solid #777777;
     /*border-bottom: 1px solid #777777;*/
     /*border-bottom-left-radius: 0;*/
     /*border-bottom-right-radius: 0;*/
+=======
+    border-bottom: 1px dashed #ffffff;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+>>>>>>> 3ae12cb2674bb4705a4ec458d105ce7a44828a71
 }
 input.form-control-lg{
     line-height: 30px;
-    height: 60px;
-    font-size:18px;
+    height: 50px;
+    font-size:25px;
+
 }
 
 .glyphicon.glyphicon-search{
@@ -1054,4 +1062,23 @@ div.cart-collaterals ul.products li.product:hover .add_to_cart_button{background
 
 .pagination > li > a, .pagination > li > span {
   color: #1abc9c;
+}
+
+/*.form-control{
+  color: #ffffff !important;
+}*/
+
+
+
+.checked {
+    color: orange;
+}
+
+.btn-greeny{
+  background: #1ABC9C;
+  color: #ffffff;
+  border: thick;
+  padding: 11px 15px;
+  
+  /*text-transform: uppercase;*/
 }
